@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Vitale</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .navbar-brand {
+            font-weight: 700;
+            color: #000000;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .navbar-brand:hover {
+            color: #ff4500;
+        }
+        .btn-orange {
+            background-color: #ff7f50;
+            color: white;
+        }
+        .btn-orange:hover {
+            background-color: #ff4500;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .product-card {
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .product-card img {
+            max-height: 300px;
+            object-fit: cover;
+        }
+        .custom-icon {
+            filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.6)) drop-shadow(-2px -2px 2px rgba(255, 255, 255, 0.6));
+        }
+        .section-header {
+            color: #333;
+            font-weight: 700;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">VITALE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="produtos.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="carrinho.html">Carrinho</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cadastro.html">Cadastro</a>
+                    </li>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <h2 class="section-header text-center">Explore nossos produtos</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="tenis1.jpg" class="card-img-top" alt="Produto 1">
+                    <div class="card-body">
+                        <h5 class="text-center">QIX Chorão Park Preto</h5>
+                        <p class="text-center">R$ 319,90</p>
+                        <div class="text-center">
+                            <a href="carrinho.html" class="btn btn-orange text-decoration-none">Adicionar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="tenis2.webp" class="card-img-top" alt="Produto 2">
+                    <div class="card-body">
+                        <h5 class="text-center">Ecko Detroit Bege</h5>
+                        <p class="text-center">R$ 189,99</p>
+                        <div class="text-center">
+                            <a href="carrinho.html" class="btn btn-orange text-decoration-none">Adicionar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="tenis3.jpg" class="card-img-top" alt="Produto 3">
+                    <div class="card-body">
+                        <h5 class="text-center">Qix Missy Feat Cinza</h5>
+                        <p class="text-center">R$ 449,90</p>
+                        <div class="text-center">
+                            <a href="carrinho.html" class="btn btn-orange text-decoration-none">Adicionar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="tenis4.webp" class="card-img-top" alt="Produto 2">
+                    <div class="card-body">
+                        <h5 class="text-center">Under Armour Swish Azul </h5>
+                        <p class="text-center">R$ 329,99</p>
+                        <div class="text-center">
+                            <a href="carrinho.html" class="btn btn-orange text-decoration-none">Adicionar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="tenis5.webp" class="card-img-top" alt="Produto 2">
+                    <div class="card-body">
+                        <h5 class="text-center">Mizuno Wave Luminous 2 Rose Gold</h5>
+                        <p class="text-center">R$ 449,99</p>
+                        <div class="text-center">
+                            <a href="carrinho.html" class="btn btn-orange text-decoration-none">Adicionar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="tenis6.jpg" class="card-img-top" alt="Produto 2">
+                    <div class="card-body">
+                        <h5 class="text-center">Qix KINGs Galeria Azul e Laranja</h5>
+                        <p class="text-center">R$ 449,99</p>
+                        <div class="text-center">
+                            <a href="carrinho.html" class="btn btn-orange text-decoration-none">Adicionar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="tenis7.webp" class="card-img-top" alt="Produto 2">
+                    <div class="card-body">
+                        <h5 class="text-center">Fila Venture Tracer Rosa</h5>
+                        <p class="text-center">R$ 399,99</p>
+                        <div class="text-center">
+                            <a href="carrinho.html" class="btn btn-orange text-decoration-none">Adicionar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="tenis8.webp" class="card-img-top" alt="Produto 2">
+                    <div class="card-body">
+                        <h5 class="text-center">One Star Pro Preto</h5>
+                        <p class="text-center">R$ 549,90</p>
+                        <div class="text-center">
+                            <a href="carrinho.html" class="btn btn-orange text-decoration-none">Adicionar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="tenis9.webp" class="card-img-top" alt="Produto 2">
+                    <div class="card-body">
+                        <h5 class="text-center">Nike Air Dunk Low Jumbo Verde</h5>
+                        <p class="text-center">R$ 699,90</p>
+                        <div class="text-center">
+                            <a href="carrinho.html" class="btn btn-orange text-decoration-none">Adicionar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="mt-5">
+        <p>&copy; 2025 Vitale. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
