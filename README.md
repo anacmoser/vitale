@@ -31,4 +31,4 @@ A **Vitale** é uma loja fictícia de sapatos desenvolvida como projeto pessoal 
 ---
 
 
-👩‍💻 Desenvolvido  por [Ana Júlia Cardoso Moser](https://www.linkedin.com/in/ana-julia-moser-a87294332/)  
+👩‍💻 Desenvolvido  por [Ana Julia Cardoso Moser](https://www.linkedin.com/in/ana-julia-moser-a87294332/)  
