@@ -1,6 +1,6 @@
 # 👟 Vitale
 
-![Banner da Vitale](imagens/print.jpg)
+![Home da Vitale](https://github.com/anacmoser/vitale/blob/main/imagens/print.JPG?raw=true)
 
 > *Senti la vita, vive Vitale.*
 
