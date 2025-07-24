@@ -12,6 +12,7 @@
     <style>
         body {
             font-family: 'Montserrat', sans-serif;
+            
         }
         .navbar-brand {
             font-weight: 700;
@@ -27,6 +28,12 @@
         }
         .btn-orange:hover {
             background-color: #ff4500;
+        }
+        .index__card{
+            transition: 0.2s ease-out;
+        }
+        .index__card:hover{
+            transform: scale(1.05);
         }
         footer {
             background-color: #343a40;
@@ -106,7 +113,7 @@
         <h2 class="text-center mb-4">Produtos em alta</h2>
         <div class="row">
             <div class="col-md-4 mb-4">
-                <div class="card shadow">
+                <div class="card index__card shadow">
                     <img src="imagens/adidas.webp" class="card-img-top" alt="Produto 1">
                     <div class="card-body">
                         <h5 class="text-center">Adidas Forum Low Azul</h5>
@@ -118,7 +125,7 @@
                 </div>
             </div>
             <div class="col-md-4 mb-4">
-                <div class="card shadow">
+                <div class="card index__card index__card shadow">
                     <img src="imagens/allstar.webp" class="card-img-top" alt="Produto 2">
                     <div class="card-body">
                         <h5 class="text-center">Nike Air Max SC Laranja</h5>
@@ -130,7 +137,7 @@
                 </div>
             </div>
             <div class="col-md-4 mb-4">
-                <div class="card shadow">
+                <div class="card index__card shadow">
                     <img src="imagens/newbalance2.webp" class="card-img-top" alt="Produto 3">
                     <div class="card-body">
                         <h5 class="text-center">New Balance 1000 Verde</h5>
